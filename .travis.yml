@@ -12,10 +12,10 @@ julia:
   - 1.4
   - nightly
 
-branches:
-  only:
-    - master
-    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/  # release tags
+#branches:
+#  only:
+#    - master
+#    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/  # release tags
 
 notifications:
   email: false
