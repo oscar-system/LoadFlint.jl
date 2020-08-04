@@ -29,7 +29,8 @@ libmpfr = filter(x->occursin(r"libmpfr[.-]", x), dllist())[1]
 
 elseif VERSION < v"1.3.0-rc4"
 
-   using Pkg, BinaryProvider
+   import Pkg
+   using BinaryProvider
 
    # This does not work on julia >= 1.3, but there we use the *jll package anyway.
    ver = Pkg.API.__installed(PKGMODE_MANIFEST)["FLINT_jll"]
