@@ -1,6 +1,6 @@
 # this file is only for julia older than 1.3
 
-using Libdl
+using Libdl, Pkg
 
 if "FLINT_PATH" in keys(ENV)
 
@@ -29,7 +29,6 @@ libmpfr = filter(x->occursin(r"libmpfr[.-]", x), dllist())[1]
 
 elseif VERSION < v"1.3.0-rc4"
 
-   import Pkg
    using BinaryProvider
 
    # This does not work on julia >= 1.3, but there we use the *jll package anyway.
