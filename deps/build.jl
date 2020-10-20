@@ -49,7 +49,7 @@ elseif VERSION < v"1.3.0-rc4"
      push!(dependencies, "build_FLINT.v2.6.0.jl")
    elseif ver == v"2.6.2+0"
      push!(dependencies, "build_FLINT.v2.6.2.jl")
-   elseif ver == v"2.6.3+0"
+   elseif ver == v"2.6.3+0" || ver == v"2.6.3+1"
      push!(dependencies, "build_FLINT.v2.6.3.jl")
    else
      throw(error("Flint version $ver not supported for julia version <= 1.3"))
