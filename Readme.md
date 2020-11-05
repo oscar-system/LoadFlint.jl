@@ -1,4 +1,8 @@
-Problem:  
+# LoadFlint
+
+[![Build Status](https://github.com/oscar-system/LoadFlint.jl/workflows/Run%20tests/badge.svg)](https://github.com/oscar-system/LoadFlint.jl/actions?query=workflow%3A%22Run+tests%22)
+
+Problem:
   Polymake needs flint needs gmp
   Nemo needs antic needs flint needs gmp
 
