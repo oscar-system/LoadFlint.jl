@@ -5,7 +5,6 @@ using Libdl
 # Just successfully loading LoadFlint is a good first test
 
 @testset "LoadFlint" begin
-    @test occursin("libgmp", LoadFlint.libgmp)
     @test occursin("libflint", LoadFlint.libflint)
 
     l = dllist()

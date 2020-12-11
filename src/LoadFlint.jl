@@ -5,8 +5,6 @@ using Libdl
 if VERSION > v"1.3.0-rc4"
   # this should do the dlopen for 1.3 and later
   # and imports the libxxx variables
-  using GMP_jll
-  using MPFR_jll
   using FLINT_jll
 else
   deps_dir = joinpath(@__DIR__, "..", "deps")
