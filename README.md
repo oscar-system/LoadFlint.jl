@@ -28,3 +28,11 @@ Alternative approach
 Thus LoadFlint
 
 which will only make sure that libgmp and libflint are in the process space and properly initialized.
+
+## Contributors
+
+This package contains contributions by
+
+- Benjamin Lorenz
+- Claus Fieker
+- Tommy Hofmann
