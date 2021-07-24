@@ -1,6 +1,6 @@
 name = "LoadFlint"
 uuid = "472f376f-f1cf-461b-9ac1-d103423be9b7"
-authors = ["Claus Fieker <fieker@mathematik.uni-kl.de>"]
+authors = ["The OSCAR team <oscar-dev@mathematik.uni-kl.de>"]
 version = "0.6.0"
 
 [deps]
