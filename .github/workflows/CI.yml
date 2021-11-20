@@ -17,6 +17,7 @@ jobs:
           - '1.4'
           - '1.5'
           - '1.6'
+          - '~1.7.0-0'
           - 'nightly'
         julia-arch:
           - x64
@@ -65,4 +66,4 @@ jobs:
           julia -e 'using Pkg; Pkg.add("Polymake"); Pkg.build("Polymake");'
           julia -e 'using Pkg; Pkg.test("Polymake");'
           julia -e 'using Polymake; c = polytope.cube(3); using Nemo; CC, s = Nemo.PolynomialRing(ComplexField(256), "s"); println(s);'
-        if: ${{ matrix.julia-version == '1.5' }}
+        if: ${{ matrix.julia-version == '1.6' }}
