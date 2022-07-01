@@ -1,4 +1,4 @@
-# LoadFlint
+# LoadFlint -- OBSOLETE, THIS PACKAGE IS NOT NEEDED ANYMORE
 
 [![Build Status](https://github.com/oscar-system/LoadFlint.jl/workflows/Run%20tests/badge.svg)](https://github.com/oscar-system/LoadFlint.jl/actions?query=workflow%3A%22Run+tests%22)
 
